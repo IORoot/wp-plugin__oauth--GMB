@@ -1,0 +1,12 @@
+.andyp-oauth__button-gmb.enabled {
+    background: #53A5E3;
+    color: #fff;
+    opacity: 0.5;
+}
+.andyp-oauth__button-gmb--trash {
+    line-height: 14px !important;
+    opacity: 0;
+}
+.andyp-oauth__button-gmb--trash.enabled {
+    opacity: 1;
+}
