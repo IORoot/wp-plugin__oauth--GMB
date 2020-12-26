@@ -14,6 +14,12 @@ define( 'GMB_GOOGLE_APPLICATION_CREDENTIALS', __DIR__.'/client_secret.json');
 define( 'GMB_GOOGLE_APPLICATION_SCOPE',       "https://www.googleapis.com/auth/business.manage");
 define( 'GMB_GOOGLE_TRANSIENT_NAME',          "GMB_OAUTH_REFRESH_TOKEN");
 
+//  ┌─────────────────────────────────────────────────────────────────────────┐
+//  │                    Register with ANDYP Plugins                          │
+//  └─────────────────────────────────────────────────────────────────────────┘
+require __DIR__.'/src/acf/andyp_plugin_register.php';
+
+
 // ┌─────────────────────────────────────────────────────────────────────────┐
 // │                         Use composer autoloader                         │
 // └─────────────────────────────────────────────────────────────────────────┘
