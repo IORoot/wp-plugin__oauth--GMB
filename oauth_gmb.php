@@ -1,7 +1,7 @@
 <?php
 /*
  * @wordpress-plugin
- * Plugin Name:       _ANDYP - ACF OAUTH - Google-My-Business
+ * Plugin Name:       _ANDYP - ACF - OAUTH for Google-My-Business
  * Plugin URI:        http://londonparkour.com
  * Description:       <strong>🔌PLUGIN</strong> | <em>ANDYP > Universal Exporter</em> | oAuth for Google-My-Business
  * Version:           1.0.0
