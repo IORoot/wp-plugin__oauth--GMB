@@ -21,3 +21,24 @@ More info at:
 1. The .gitignore is listing that file (so you don't add it to git!)
 1. `define('GMB_GOOGLE_APPLICATION_CREDENTIALS', __DIR__.'/client_secret.json');`
 
+
+
+## Troubleshooting
+
+### OAUTH Issues
+
+
+1. Ensure HTTPS is working. (Make sure cert is created and added to keychain)
+
+
+2. Ensure the address of the `Authorised redirect URIs` has the correct URIs in it's list.
+```
+https://dev.exporter.londonparkour.com/wp-admin/admin-ajax.php
+```
+Preferably at the top of the list.
+
+3. Ensure `Authorised JavaScript origins` in the google console APIs 'credentials' has the 
+domain:
+```
+https://dev.exporter.londonparkour.com
+```
